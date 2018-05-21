@@ -1,15 +1,6 @@
 'use strict';
 const decamelize = require('decamelize');
 
-/**
- * @description Converts a variable name to human readable words.
- * Example myCar to My Car and my_car to My Car
- * 
- * @param {string} input - The variable to conver to readable word
- * @param {integer} [tCase] - The returned phrase's case. 1 for lower,
- * 2 for upper, 3 for sentence, 4 for title.
- * @returns {string}
- */
 module.exports = {
 
   /**
@@ -36,6 +27,16 @@ module.exports = {
    */
   TITLE_CASE: 4,
 
+
+  /**
+   * @description Converts a variable name to human readable words.
+   * Example myCar to My Car and my_car to My Car
+   * 
+   * @param {string} input - The variable to conver to readable word
+   * @param {number} [tCase] - The returned phrase's case. 1 for lower,
+   * 2 for upper, 3 for sentence, 4 for title.
+   * @returns {string}
+   */
   humanify(input, tCase) {
     if (typeof input !== 'string') {
       throw new Error('Expected a string but got ' + typeof input);
