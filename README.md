@@ -1,4 +1,4 @@
-# humanizr ![Build Status](https://travis-ci.org/16kilobyte/humanizr.svg?branch=master)](https://travis-ci.org/16kilobyte/humanizr)
+# humanizr [![Build Status](https://travis-ci.org/16kilobyte/humanizr.svg?branch=master)](https://travis-ci.org/16kilobyte/humanizr)
 
 Make `strings` humanly readable
 
