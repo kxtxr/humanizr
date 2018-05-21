@@ -1,0 +1,27 @@
+{
+  "name": "humanizr",
+  "version": "0.0.1",
+  "description": "Make things humanly readable",
+  "main": "index.js",
+  "scripts": {
+    "test-std": "mocha -- -R spec --bail",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+    "test": "npm run test-cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/16kilobyte/humanizr.git"
+  },
+  "author": "Kator James <kator95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/16kilobyte/humanizr/issues"
+  },
+  "homepage": "https://github.com/16kilobyte/humanizr#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  }
+}
